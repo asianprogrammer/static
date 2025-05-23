@@ -1,3 +1,8 @@
+:root {
+    --black: #111419;
+    --text: #EDE9DD;
+}
+
 body {
     margin: 0;
     padding: 0;
