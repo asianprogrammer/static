@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: var(--black);
 }
 
 button {
@@ -20,6 +21,7 @@ main {
     overflow: hidden;
     display: flex;
     align-items: center;
+    background: url(./assets/images/noisy-texture-100x100-o19-d10-c-15191E-t1.png);
 }
 
 .overlay {
