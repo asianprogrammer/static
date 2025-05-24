@@ -88,6 +88,7 @@ header {
 
 .activity {
     color: var(--text);
+    padding-left: 8em;
 }
 
 .activity h1 {
@@ -96,4 +97,7 @@ header {
 
 .activity p {
     font-family: DM;
+    font-size: 1.1em;
+    color: #A19F9A;
+    margin-bottom: 2em;
 }
