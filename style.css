@@ -8,6 +8,17 @@
     src: url(./assets/fonts/PlayfairDisplay-Regular.ttf);
 }
 
+@font-face {
+    font-family: DM;
+    src: url(./assets/fonts/DMSans-Regular.ttf);
+}
+
+body, main, section, h1, h2, p, span, div, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -77,4 +88,8 @@ header {
 
 .activity h1 {
     font-size: 3em;
+}
+
+.activity p {
+    font-family: DM;
 }
