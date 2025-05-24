@@ -22,6 +22,13 @@ main {
     align-items: center;
 }
 
+.overlay {
+    top: 0;
+    height: 100vh;
+    position: relative;
+    border: solid 1px red;
+}
+
 .overlay .image-view {
     top: 0;
     height: 100vh;
