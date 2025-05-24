@@ -26,7 +26,6 @@ main {
     top: 0;
     height: 100vh;
     position: relative;
-    border: solid 1px red;
 }
 
 .overlay .image-view {
