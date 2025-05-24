@@ -21,3 +21,15 @@ main {
     display: flex;
     align-items: center;
 }
+
+.overlay .image-view {
+    top: 0;
+    height: 100vh;
+    position: absolute;
+}
+
+.overlay .image-view img {
+    height: 100%;
+    width: fit-content;
+    object-fit: cover;
+}
