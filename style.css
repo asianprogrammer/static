@@ -31,8 +31,17 @@ main {
 
 .overlay .image-view {
     top: 0;
+    width: 100%;
     height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+header {
+    left: 50%;
+    z-index: 111;
     position: absolute;
+    transform: translateX(-50%);
 }
 
 .overlay .image-view img {
