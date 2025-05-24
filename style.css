@@ -1,7 +1,6 @@
 :root {
     --black: #0d1216;
     --text: #EDE9DD;
-    --realstic: linear-gradient(to left, rgb(255 255 255 / 0%) 3%, rgb(255 255 255) 72%);
 }
 
 body {
@@ -14,7 +13,7 @@ button {
     outline: none;
     color: #CECCC2;
     border: solid 2px #888C86;
-    background: var(--realstic);
+    background: linear-gradient(0deg,#1a1f24 0%, #273232 100%);
 }
 
 main {
@@ -23,6 +22,7 @@ main {
     display: flex;
     align-items: center;
     position: relative;
+    background-blend-mode: soft-light;
 }
 
 main::before {
@@ -48,7 +48,7 @@ main::before {
     height: 100vh;
     overflow: hidden;
     position: relative;
-    mask-image: linear-gradient(to left, rgb(255 255 255 / 0%) 3%, rgb(255 255 255) 72%);
+    /* mask-image: linear-gradient(to left, rgb(255 255 255 / 0%) 3%, rgb(255 255 255) 72%); */
 }
 
 header {
