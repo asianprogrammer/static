@@ -70,3 +70,7 @@ header {
     width: fit-content;
     object-fit: cover;
 }
+
+.activity {
+    color: var(--text);
+}
