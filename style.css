@@ -29,6 +29,10 @@ body {
 button {
     outline: none;
     color: #CECCC2;
+    font-size: 1em;
+    padding: 1em 2em;
+    cursor: pointer;
+    border-radius: 100px;
     border: solid 2px #888C86;
     background: linear-gradient(0deg,#1a1f24 0%, #273232 100%);
 }
