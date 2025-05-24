@@ -14,3 +14,8 @@ button {
     border: solid 2px #888C86;
     background: linear-gradient(0deg,#1a1f24 0%, #273232 100%);
 }
+
+main {
+    height: 100vh;
+    overflow: hidden;
+}
