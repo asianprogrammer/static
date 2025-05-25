@@ -103,3 +103,7 @@ header {
     color: #A19F9A;
     margin-bottom: 1.5em;
 }
+
+footer {
+    position: absolute;
+}
