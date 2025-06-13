@@ -121,6 +121,20 @@ header img {
 }
 
 footer {
-    bottom: 0;
+    bottom: 1em;
+    width: 100%;
     position: absolute;
+}
+
+footer h2 {
+    width: 100%;
+    font-size: 3em;
+    color: var(--text);
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
 }
