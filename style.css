@@ -137,6 +137,7 @@ footer h2 {
 
 footer section {
     display: flex;
+    font-family: dm;
     justify-content: space-between;
 }
 
