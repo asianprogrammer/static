@@ -147,3 +147,14 @@ footer .left {
     align-items: center;
     justify-content: space-between;
 }
+
+footer .icon {
+    width: 20px;
+    height: 20px;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
