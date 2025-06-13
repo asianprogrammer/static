@@ -121,10 +121,12 @@ header img {
 }
 
 footer {
+    left: 50%;
+    width: 90%;
     bottom: 1em;
-    width: 100%;
     color: var(--text);
     position: absolute;
+    transform: translateX(-50%);
 }
 
 footer h2 {
@@ -142,7 +144,6 @@ footer section {
 }
 
 footer .left {
-    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -151,6 +152,7 @@ footer .left {
 footer .icon {
     width: 20px;
     height: 20px;
+    margin: 0 1em;
 }
 
 .icon img {
