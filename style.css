@@ -81,10 +81,21 @@ main::before {
 }
 
 header {
+    top: 1em;
     left: 50%;
+    width: 100%;
+    height: 3em;
     z-index: 111;
     position: absolute;
     transform: translateX(-50%);
+}
+
+header img {
+    width: 100%;
+    opacity: .8;
+    height: 100%;
+    filter: invert(1);
+    object-fit: contain;
 }
 
 .overlay .image-view img {
