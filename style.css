@@ -168,6 +168,10 @@ footer .icon {
     object-fit: contain;
 }
 
+.small-device-image {
+    display: none;
+}
+
 @media only screen and (max-width: 1024px) {
     .overlay {
         width: 80%;
@@ -185,5 +189,9 @@ footer .icon {
 @media only screen and (max-width: 768px){
     main {
         flex-direction: column;
+    }
+
+    .small-device-image {
+        display: inline-block;
     }
 }
