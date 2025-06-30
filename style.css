@@ -216,16 +216,18 @@ footer .icon {
 
     footer {
         top: 0;
-        left: 0;
-        width: 100%;
+        left: 50%;
         height: 100vh;
-        z-index: 11111;
+        pointer-events: none;
+        width: calc(100% - 2em);
     }
 
     footer > h2 {
         top: 2em;
         left: 2em;
         width: 100%;
+        text-align: left;
+        pointer-events: all;
     }
 
     footer section {
@@ -235,6 +237,7 @@ footer .icon {
         bottom: 2em;
         margin: 0 auto;
         position: absolute;
+        pointer-events: all;
     }
 
 }
