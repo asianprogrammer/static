@@ -188,7 +188,9 @@ footer .icon {
 
 @media only screen and (max-width: 910px){
     main {
+        height: 100vh;
         flex-direction: column;
+        overflow: auto;
     }
 
     .small-device-image {
@@ -214,7 +216,8 @@ footer .icon {
     }
 
     footer section {
-        position: absolute;
+        margin-top: 35vh;
+        position: absolute !important;
     }
 
 }
