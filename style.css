@@ -223,11 +223,11 @@ footer .icon {
     }
 
     footer > h2 {
-        top: 2em;
-        left: 2em;
-        width: 100%;
+        margin-top: 1em;
+        font-size: 1.5em;
         text-align: left;
         pointer-events: all;
+        margin-left: calc(1em - 1em);
     }
 
     footer section {
@@ -238,6 +238,10 @@ footer .icon {
         margin: 0 auto;
         position: absolute;
         pointer-events: all;
+    }
+
+    header {
+        display: none;
     }
 
 }
