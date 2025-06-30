@@ -167,3 +167,17 @@ footer .icon {
     height: 100%;
     object-fit: contain;
 }
+
+@media only screen and (max-width: 1024px) {
+    .overlay {
+        width: 80%;
+    }
+
+    .activity {
+        padding-left: 0;
+    }
+
+    main {
+        gap: 3em;
+    }
+}
