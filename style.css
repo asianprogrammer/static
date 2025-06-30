@@ -204,7 +204,6 @@ footer .icon {
     .overlay {
         width: 100%;
         height: 60vh;
-        position: relative;
     }
 
     .image-view {
@@ -215,9 +214,27 @@ footer .icon {
         mask-image: none !important;
     }
 
+    footer {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 11111;
+    }
+
+    footer > h2 {
+        top: 2em;
+        left: 2em;
+        width: 100%;
+    }
+
     footer section {
-        margin-top: 35vh;
-        position: absolute !important;
+        left: 0;
+        right: 0;
+        width: 100%;
+        bottom: 2em;
+        margin: 0 auto;
+        position: absolute;
     }
 
 }
