@@ -194,4 +194,8 @@ footer .icon {
     .small-device-image {
         display: inline-block;
     }
+
+    .large-device-image {
+        display: none;
+    }
 }
