@@ -46,7 +46,7 @@ a {
 }
 
 main {
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -217,7 +217,7 @@ footer .icon {
     footer {
         top: 0;
         left: 50%;
-        height: 100vh;
+        height: 100ch;
         pointer-events: none;
         width: calc(100% - 2em);
     }
@@ -235,6 +235,7 @@ footer .icon {
         right: 0;
         width: 100%;
         bottom: 2em;
+        font-size: 1em;
         margin: 0 auto;
         position: absolute;
         pointer-events: all;
@@ -244,4 +245,22 @@ footer .icon {
         display: none;
     }
 
+    .activity {
+        height: 100%;
+        padding-bottom: 3em;
+        margin: 0 2em;
+    }
+
+}
+
+
+@media only screen and (max-width: 425px) {
+    .activity {
+        height: calc(100% + 8em);
+    }
+
+    footer section {
+        flex-direction: column;
+        gap: 1em;
+    }
 }
