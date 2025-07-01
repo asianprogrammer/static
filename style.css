@@ -28,7 +28,7 @@ img {
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    min-height: 100vh;
     font-family: Play;
     position: relative;
     background: var(--black);
@@ -190,9 +190,9 @@ footer .icon {
 
 @media only screen and (max-width: 910px){
     main {
-        height: 100vh;
+        height: max-content;
         flex-direction: column;
-        overflow: auto;
+        overflow: visible;
     }
 
     .small-device-image {
@@ -219,7 +219,6 @@ footer .icon {
     footer {
         top: 0;
         left: 50%;
-        height: 100cqh;
         pointer-events: none;
         width: calc(100% - 2em);
     }
@@ -235,12 +234,14 @@ footer .icon {
     footer section {
         left: 0;
         right: 0;
-        width: 100%;
         bottom: 1em;
         font-size: 1em;
         margin: 0 auto;
-        position: absolute;
+        position: fixed;
+        padding: 0;
+        color: var(--text);
         pointer-events: all;
+        width: calc(100% - 2em);
     }
 
     header {
@@ -257,26 +258,8 @@ footer .icon {
 
 
 @media only screen and (max-width: 425px) {
-    .activity {
-        height: calc(100% + 8em);
-    }
-
-    footer {
-        width: calc(100% - 1em);
-    }
-
     footer section {
         flex-direction: column;
-        gap: 1em;
-    }
-}
-
-@media only screen and (max-width: 726px) {
-    footer {
-        height: 130vh;
-    }
-
-    .activity {
-        height: 40vh;
+        gap: 0.5em;
     }
 }
