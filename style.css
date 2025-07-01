@@ -30,6 +30,7 @@ body {
     padding: 0;
     height: 100%;
     font-family: Play;
+    position: relative;
     background: var(--black);
 }
 
