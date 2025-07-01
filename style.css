@@ -213,7 +213,7 @@ footer .icon {
         overflow: hidden;
         object-fit: contain;
         height: 100% !important;
-        mask-image: none !important;
+        mask-image: linear-gradient(to top, rgb(255 255 255 / 0%) 0%, rgb(255 255 255) 8%) !important;
     }
 
     footer {
