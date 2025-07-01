@@ -234,11 +234,11 @@ footer .icon {
     footer section {
         left: 0;
         right: 0;
+        padding: 0;
         bottom: 1em;
         font-size: 1em;
         margin: 0 auto;
         position: fixed;
-        padding: 0;
         color: var(--text);
         pointer-events: all;
         width: calc(100% - 2em);
