@@ -54,7 +54,7 @@ main {
     background-blend-mode: soft-light;
 }
 
-main::before {
+body::before {
     content: '';
     width: 100%;
     height: 100%;
@@ -217,7 +217,7 @@ footer .icon {
     footer {
         top: 0;
         left: 50%;
-        height: 100ch;
+        height: 100cqh;
         pointer-events: none;
         width: calc(100% - 2em);
     }
@@ -259,8 +259,22 @@ footer .icon {
         height: calc(100% + 8em);
     }
 
+    footer {
+        width: calc(100% - 1em);
+    }
+
     footer section {
         flex-direction: column;
         gap: 1em;
+    }
+}
+
+@media only screen and (max-width: 726px) {
+    footer {
+        height: 130vh;
+    }
+
+    .activity {
+        height: 40vh;
     }
 }
