@@ -21,9 +21,6 @@ const ASSETS = [
   '/assets/icons/star.svg',
 
   // Images (responsive AVIFs, all sizes)
-  '/assets/images/demoss-400w.avif',
-  '/assets/images/demoss-600w.avif',
-  '/assets/images/demoss-800w.avif',
   '/assets/images/img2_dmlqbz_c_scale,w_200.avif',
   '/assets/images/img2_dmlqbz_c_scale,w_409.avif',
   '/assets/images/img2_dmlqbz_c_scale,w_704.avif',
